@@ -11,7 +11,7 @@ while count < 32:
         count += 1
         print(f"you now have {value} dolah \n level {count}")
         M = input("What you want? D or G\n")
-        if count > 31:
+        if count == 32:
             value *= -1
             print("OVERFLOW HAS ATTACKED\n GAME OVER\n *ENDING 2*")
             print(f"you got {value} dolah")
