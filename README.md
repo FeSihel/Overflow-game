@@ -1,2 +1,2 @@
 # Overflow-game
-A game inspired in the C programming language's overflow created in python.
+A game that simulates overflow situation seen in the C programming language, created in python.
