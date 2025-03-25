@@ -3,7 +3,7 @@ count = 1
 
 print(f"you have {value} dolah. \nwhat you want: \n(D)ouble it \n(G)et current")
 
-M = input("What you want? D or G\n")
+M = input("What you want? D or G\n") //CAPS ON!
 
 while count < 32:
     if M == "D":
