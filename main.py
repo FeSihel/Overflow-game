@@ -1,9 +1,15 @@
+''' How to play:
+Turn on capslock key;
+Press D to double | Press G to get current
+'''
+
 value = 1
 count = 1
 
-print(f"you have {value} dolah. \nwhat you want: \n(D)ouble it \n(G)et current")
+print(f"you have {value} dolah.")
 
-M = input("What you want? D or G\n") //CAPS ON!
+M = input("What you want?\n") 
+print("(D)ouble it \n(G)et current")
 
 while count < 32:
     if M == "D":
